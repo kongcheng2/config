@@ -1,0 +1,265 @@
+9c1affd945bc547aa9dbd4d2c6844a5a|file:///home/kon/code_c/hello.c|5|10|V|c
+	  putchar();
+35d00af5d5e0276acb62fac518d3c5f1|file:///home/kon/code_c/hello.c|5|2|V|c
+	  getchar();
+8f98a65d0772af5a0bcad659346f9181|file:///home/kon/code_c/hello.c|6|9|V|c
+	  malloc()
+7e20577c375b4eca47849b4b87142a08|file:///home/kon/code_c/hello.c|6|5|V|c
+	  real
+d7023492b2d65c20761dde2372c8cce3|file:///home/kon/code_c/hello.c|5|1|v|c
+	  int a;
+	  int
+b53e8981dbb4756e747e705aafb1cc06|file:///home/kon/code_c/hello.c|5|1|v|c
+	  int a;
+	  int
+	 
+7a4b655810d41b5300f166db58dc38cf|file:///home/kon/code_c/hello.c|5|1|v|c
+	  int a;
+	  int
+	  p
+2b17b66bd7dd006610588d65dcf89493|file:///home/kon/code_c/hello.c|4|1|V|c
+	int main(){
+	  int a;
+bb07ed1e093a857415ec2f5186375b01|file:///home/kon/code_c/hello.c|4|1|v|c
+	int main(){
+	  int a;
+	 
+6a7d6b6be29c9d4657fc33c2dcf07baf|file:///home/kon/code_c/hello.c|7|2|V|c
+	  
+	    a = 1a;
+	    bbb = 2;
+89a20f978579f815e467f4035fbb05a6|file:///home/kon/code_c/hello.c|6|2|V|c
+	  int ab;
+c92dceeab779102c21432f6e6dcdb279|file:///home/kon/.config/nvim/coc-settings.json|3|1|^v|json
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+64545b0c316099aa873a7ee7041528bd|file:///home/kon/.config/nvim/coc-settings.json|24|1|^v|json
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+ccd35a334c0d6d33a5165630dd76e816|file:///home/kon/code_c/hello.c|7|10|v|c
+	size_t __size
+490a3c319d623e8e9e3f94047d423d48|file:///home/kon/code_c/test.md|2|1|V|markdown
+	 tile
+937d82f7c7665c603f0905ef1c40e935|file:///home/kon/code_c/test.md|2|1|V|markdown
+	 asd
+fb9ab3fc8d98c82dd2caccb87a405ae6|file:///home/kon/.config/nvim/coc-settings.json|226|5|V|json
+			"ccls": {
+				"command": "ccls",
+				"filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
+				"rootPatterns": [".ccls", ".ccls-root", "compile_commands.json", ".git/", ".hg/"],
+				"initializationOptions": {
+					"cache": {
+						"directory": "/tmp/ccls"
+					}
+				}
+			}
+202c1bc8a61066532dd2be714c7ac5fc|file:///home/kon/.config/nvim/coc-settings.json|226|1|V|json
+	"languageserver": {
+2af7e87a487d9dbf4973a0322cfd8dee|file:///home/kon/.config/nvim/init.vim|209|1|V|vim
+	Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
+ae6ea03b6ad3e42b2bbd313d40fbab83|file:///home/kon/code_c/hello.c|5|3|v|c
+	int a;
+	  
+4f1a8f8fb349946c62e08ca873d71d80|file:///home/kon/.config/ranger/rc.conf|465|6|V|conf
+	map gn cd ~/.config/nvim
+d8a69d7a43a97e735fc567a995386fe9|file:///home/kon/.config/nvim/init.vim|233|4|V|vim
+	Plugin 'SirVer/ultisnips'
+dbf0f35ca1917156646e6186a9c2b44d|file:///home/kon/CODSpring2022/Homework03.md|5|3|V|markdown
+	**asd** <++>
+3cdb0c0ddaef63dfb22124890ba6471e|file:///home/kon/CODSpring2022/Homework03.md|6|16|V|markdown
+	### 1.对于下述每条 - 指令，写出操作码（ ）、源寄存器（ ）和目标寄存器（ ）字段的值。对于 型指令，写出立即数字段的值，对于 型指令，写出第二个源寄存器（ ）的值和 字段。对于非 型和 型指令，写出 字段。
+d93de4c92f48b88cd74260753e83d636|file:///home/kon/CODSpring2022/Homework03.md|6|1|V|markdown
+	:CocUninstall
+bd16d00c6c6a836e5d8ddaac0238c5a5|file:///home/kon/.config/nvim/md-snippets.vim|1|1|V|vim
+	"autocmd Filetype markdown map <leader>w yiWi[<esc>Ea](<esc>pa)
+	autocmd Filetype markdown inoremap <buffer> ,f <Esc>/<++><CR>:nohlsearch<CR>"_c4l
+	autocmd Filetype markdown inoremap <buffer> ,w <Esc>/ <++><CR>:nohlsearch<CR>"_c5l<CR>
+	autocmd Filetype markdown inoremap <buffer> ,n ---<Enter><Enter>
+	autocmd Filetype markdown inoremap <buffer> ,b **** <++><Esc>F*hi
+	autocmd Filetype markdown inoremap <buffer> ,s ~~~~ <++><Esc>F~hi
+	autocmd Filetype markdown inoremap <buffer> ,i ** <++><Esc>F*i
+	autocmd Filetype markdown inoremap <buffer> ,d `` <++><Esc>F`i
+	autocmd Filetype markdown inoremap <buffer> ,c ```<Enter><++><Enter>```<Enter><Enter><++><Esc>4kA
+	autocmd Filetype markdown inoremap <buffer> ,m - [ ] 
+	autocmd Filetype markdown inoremap <buffer> ,p ![](<++>) <++><Esc>F[a
+	autocmd Filetype markdown inoremap <buffer> ,a [](<++>) <++><Esc>F[a
+	autocmd Filetype markdown inoremap <buffer> ,1 #<Space><Enter><++><Esc>kA
+	autocmd Filetype markdown inoremap <buffer> ,2 ##<Space><Enter><++><Esc>kA
+	autocmd Filetype markdown inoremap <buffer> ,3 ###<Space><Enter><++><Esc>kA
+	autocmd Filetype markdown inoremap <buffer> ,4 ####<Space><Enter><++><Esc>kA
+	autocmd Filetype markdown inoremap <buffer> ,l --------<Enter>
+451906bf51432e21247c643462147449|file:///home/kon/code_c/hello.c|9|1|V|c
+	int main() {
+	  int a;
+	  printf("hello wor");
+	  return 0;
+	}
+9b8305dd126f2434eb67b508cf4eb016|file:///home/kon/CODSpring2022/Homework03.md|5|1|V|markdown
+	,markdownRainbow_lv0_r0
+499dddb5154594d4064e6363e9dfdc78|file:///home/kon/CODSpring2022/Homework03.md|5|23|V|markdown
+	,markdownRainbow_lv0_r0 01 
+	
+f327d543bce70e44805376878429d704|file:///home/kon/CODSpring2022/Homework03.md|7|1|V|markdown
+	,markdownRainbow_lv0_r0 01 
+ca4fdeeb39031f5f3391609ba67a63b2|file:///home/kon/CODSpring2022/Homework03.md|5|1|V|markdown
+	#   sdajoo
+7387637bb82f3414624500801c442985|file:///home/kon/CODSpring2022/Homework03.md|5|8|V|markdown
+	# sdjkds
+ce3f372a94d179db0a781f6d6df6f98c|file:///home/kon/CODSpring2022/Homework03.md|5|4|V|markdown
+	<++>
+9009985ccd39e8bcb00de3b77c33a517|file:///home/kon/CODSpring2022/Homework03.md|4|4|V|markdown
+	**asd** 
+59cd3fda60f68f1d340f0d4fd5cbe2a6|file:///home/kon/CODSpring2022/Homework03.md|3|4|V|markdown
+	## 学号 PB20111678 姓名：庞子文
+60d6d67d0d8be5fd28a1fa53c34cbac4|file:///home/kon/CODSpring2022/Homework03.md|2|4|V|markdown
+	# Homework 03
+a00f479a806bf8b2820dab8895ddcf90|file:///home/kon/CODSpring2022/Homework03.md|1|1|V|markdown
+	# HOMEWORK
+23409e87a924a1dda04b0c1e17b47567|file:///home/kon/CODSpring2022/Homework03.md|1|1|V|markdown
+	## asjd
+b8fb44a38f7e175ce415974e30cf2bea|file:///home/kon/code_c/hellooooo.cpp|6|8|v|cpp
+	_BidirectionalIterator __x
+e8a0570e003d88a04636423413b8d096|file:///home/kon/code_c/hellooooo.cpp|11|2|V|cpp
+	int main(int argc, char *argv[])
+	{
+	  return 0;
+	}
+e00fd08b38fddb14d40692f6994ced54|file:///home/kon/code_c/hello.c|4|1|V|c
+	int main(int argc, char *argv[]) { return 0; }
+e39ba0a7790848467b176685f0a23cbe|file:///home/kon/code_c/hello.c|3|8|V|c
+	#define 
+099fb995346f31c749f6e40db0f395e3|file:///home/kon/code_c/hello.c|3|11|v|c
+	header
+6b19c030c87643273b6e68e5dcce3bb3|file:///home/kon/code_c/hello.c|7|10|v|c
+	const char *, ...
+f622e3aae5eaca1474546ea840733fb9|file:///home/kon/code_c/hello.c|5|1|V|c
+	int main(int argc, char *argv[]) {
+	  printf("Hello");
+	  return 0;
+	}
+8d5211daf1fbd8ad4840298fec5d04bd|file:///home/kon/code_c/hello.c|5|35|V|c
+	int main(int argc, char *argv[]) { printf() return 0; }
+ee4f930dbd633e553e1f124567f20a3a|file:///home/kon/code_c/hello.c|5|8|v|c
+	hello_t
+8fff0add237c5d1cf5310df232ba64ff|file:///home/kon/code_c/hello.c|10|12|v|c
+	/* condition */
+e2942a04780e223b215eb8b663cf5353|file:///home/kon/code_c/hello.c|13|23|v|c
+	count
+cab8111fd0b710a336c898e539090e34|file:///home/kon/code_c/hello.c|18|1|v|c
+	void
+e82f83ed7c80ba9065e07ee379ce7a56|file:///home/kon/code_c/hello.c|18|5|v|c
+	function_name
+6a5fb1e0bc9ef46e2b915a26f50476f8|file:///home/kon/CODSpring2022/Homework03.md|10|19|V|markdown
+	**sniniwawni** <++>
+93f725a07423fe1c889f448b33d21f46|file:///home/kon/CODSpring2022/Homework03.md|8|1|V|markdown
+	java
+7eaaeff753c361598c64315c8b0a01f0|file:///home/kon/CODSpring2022/Homework03.md|5|1|V|markdown
+	sadjaosidjdoaoidsa
+e7399fed77a2c59a4f3b8898c4c81ddc|file:///home/kon/CODSpring2022/Homework03.md|4|8|V|markdown
+	**- [ ] 
+2cfc2d4da9c638db69da7f7f95aac583|file:///home/kon/CODSpring2022/Homework03.md|3|13|V|markdown
+	| sni | sji |
+279f7e4e425e271c8f62b329f07c84d5|file:///home/kon/CODSpring2022/Homework03.md|7|1|V|markdown
+	| nishi     | sdajo    |
+62e8522c722ed2eb886dd61d8e8b3396|file:///home/kon/CODSpring2022/Homework03.md|5|24|^v|markdown
+	 
+	-
+	 
+	 
+a015c9ef8c53996bfdce9cc9c7e3a328|file:///home/kon/CODSpring2022/Homework03.md|6|3|V|markdown
+	|  
+	|  
+797c017a7b5041e424d1f50c594c3378|file:///home/kon/.config/nvim/plugged/material.vim/colors/material.vim|21|7|v|vim
+	g:material_theme_style 
+77d5c71f7ef050f292ee0ecfb9ee46d2|file:///home/kon/CODSpring2022/Homework03.md|18|1|V|markdown
+	-|-|
+93b418ed5f2f6c38d10ab517da669230|file:///home/kon/CODSpring2022/Homework03.md|22|17|V|markdown
+	<center> nihao <center>
+7092f9f4cadd88589ce3df922089a066|file:///home/kon/.config/nvim/plugged/vim-snippets/UltiSnips/markdown.snippets|158|46|V|snippets
+	autocmd Filetype markdown inoremap <buffer> ,c ```<Enter><++><Enter>```<Enter><Enter><++><Esc>4kA
+	autocmd Filetype markdown inoremap <buffer> ,m - [ ] 
+90cbc69e9532804e5451f90a739a21ed|file:///home/kon/CODSpring2022/Homework03.md|15|1|V|markdown
+	`` <++>
+adb115059e28d960fa8badfac5516667|file:///home/kon/CODSpring2022/Homework03.md|3|2|v|markdown
+	center
+82b6ce097760964384d8ad66be9dced8|file:///home/kon/CODSpring2022/Homework03.md|15|68|^v|markdown
+	 
+	-
+	
+1d597f0dd61c095ae030d71ad8ef2131|file:///home/kon/CODSpring2022/Homework03.md|16|3|V|markdown
+	|----------------|----------|-----------|----------|--------------|-----|--------|-------|
+	| addi x30,x10,8 | 0010011  | 01010     | 11110    | 000000001000 |
+6c3e226b4d4795d518ab341b0824ec29|file:///home/kon/CODSpring2022/Homework03.md|22|54|v|markdown
+	NULL
+b0baee9d279d34fa1dfd71aadb908c3f|file:///home/kon/CODSpring2022/Homework03.md|22|43|v|markdown
+	11111
+19bad7bb6ac6b1fa44d2c02930f019d8|file:///home/kon/CODSpring2022/Homework03.md|23|1|V|markdown
+	|----------------|----------|-----------|----------|--------------|--------------|-------------|
+0c924dda48f0ade054b19763a5f47f5d|file:///home/kon/CODSpring2022/Homework03.md|24|14|V|markdown
+	| asjd | asdja |
+fad58de7366495db4650cfefac2fcd61|file:///home/kon/Homework/CODSpring2022/lab.c|3|1|v|c
+	main
+6ca035f5964895446642e24fd0e82550|file:///home/kon/Homework/CODSpring2022/lab.c|6|8|v|c
+	init-statement
+3f9178c25b78ed8bed19091bcb62e266|file:///home/kon/Homework/CODSpring2022/lab.c|6|23|v|c
+	condition
+8e93f0bddafb136e087bb0ae1d633b35|file:///home/kon/Homework/CODSpring2022/lab.c|6|36|v|c
+	cwexpression
+354080db9042c16827c1d9bd6f65a57a|file:///home/kon/Homework/CODSpring2022/lab.c|8|5|v|c
+	atements
+0cf31b2c283ce3431794586df7b0996d|file:///home/kon/Homework/CODSpring2022/lab.c|10|4|V|c
+	    
+5083bfec9b6bd307b2252579021b1394|file:///home/kon/Homework/CODSpring2022/lab.c|3|1|V|c
+	int main(int argc, char *argv[]) {
+	  int i = 0;
+	  int result = 0;
+	  int Mem_array[100];
+	  for (int i = 0; i < 100; i++) {
+	    result += Mem_array[i];
+	  }
+	  return result;
+	}
+d3bc617b6b8c61911c5f6664ab1079ad|file:///home/kon/Homework/CODSpring2022/Homework03.md|53|1|V|markdown
+	int main(){
+	}
+600fe3efcaf8c28043a9aadd676d1e9d|file:///home/kon/.ssh/kkey.pub|1|1|V|
+	ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBUWb9utZ5sUYyVdAj0YRVDVcevvaoFUjrr4Uu40W2SX pzw2002@mail.ustc.edu.cn
