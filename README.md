@@ -5,7 +5,7 @@
 1. vim-hexokinase need golang installed
  if your nvim report need run make hexokinase in the root, make sure that golang has been installed,and do it.
 
-2. coc.nvim need nodejs which needs >= 14.14,make sure that nodejs has been installed
+2. coc.nvim need nodejs which needs >= 14.14 and npm(if use source code to install),make sure that nodejs has been installed
 
 ## alacritty Config
 
