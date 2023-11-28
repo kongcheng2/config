@@ -10,7 +10,9 @@ First of all , update your neovim to insure that your neovim >= 0.9.1 (in Ubuntu
 1. vim-hexokinase need golang installed
  if your nvim report need run make hexokinase in the root, make sure that golang has been installed,and do it.
 
-2. coc.nvim need nodejs which needs >= 14.14 and npm(if use source code to install),make sure that nodejs has been installed
+2. `coc.nvim` need nodejs which needs >= 14.14 and npm(if use source code to install),make sure that nodejs has been installed
+
+   use `CocList marketplace` can manage all the coc Plugin  
 
 3. nvim treesitter need neovim >= 0.9.1 (in ubuntu23.04 apt package,`apt install neovim` only get the neovim 0.7.1,so that you need add repository to get the neovim latest
 
