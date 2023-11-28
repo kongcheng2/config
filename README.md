@@ -2,9 +2,10 @@
 
 First of all,you need proxy to get all the items
 
-If your `add-apt-repository` command cann't work,you can try to cut down ipv6 which uses `sudo sysctl net.ipv6.conf.all.disable_ipv6=1`
+If your `add-apt-repository` command cann't work,you can try to cut down ipv6 which uses `sudo sysctl net.ipv6.conf.all.disable_ipv6=1`;or use proxy in shell( if your proxy tool is clash,use `export http_proxy=http://127.0.0.1:7890` and `export https_proxy=$http_proxy`)
 
 ## vim Plug
+First of all , update your neovim to insure that your neovim >= 0.9.1 (in Ubuntu ,use `sudo add-apt-repository ppa:neovim-ppa/stable`)
 
 1. vim-hexokinase need golang installed
  if your nvim report need run make hexokinase in the root, make sure that golang has been installed,and do it.
