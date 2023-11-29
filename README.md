@@ -7,6 +7,8 @@ If your `add-apt-repository` command cann't work,you can try to cut down ipv6 wh
 ## vim Plug
 First of all , update your neovim to insure that your neovim >= 0.9.1 (in Ubuntu ,use `sudo add-apt-repository ppa:neovim-ppa/stable`)
 
+Then,after Plugin installed,Do `:checkhealth`
+
 1. vim-hexokinase need golang installed
  if your nvim report need run make hexokinase in the root, make sure that golang has been installed,and do it.
 
