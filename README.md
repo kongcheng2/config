@@ -16,6 +16,7 @@ First of all , update your neovim to insure that your neovim >= 0.9.1 (in Ubuntu
 
 3. nvim treesitter need neovim >= 0.9.1 (in ubuntu23.04 apt package,`apt install neovim` only get the neovim 0.7.1,so that you need add repository to get the neovim latest
 
+4. if your vim-hexokinase `Error: vim-hexokinase needs updating. Run make hexokinase in project root. See :h hexokinase-installation for more info.`,then you should remove the plug folder,run the `PlugInstall` in vim command mode,at the root of this plugin, run `make hexokinse`
 
 ## alacritty Config
 
