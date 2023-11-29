@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cnpm": "^9.2.0",
+    "coc-explorer": "^0.26.6",
+    "coc-java": "^1.15.2",
+    "yaml": "^2.3.4"
+  }
+}

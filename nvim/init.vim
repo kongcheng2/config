@@ -358,6 +358,8 @@ Plug 'dkarter/bullets.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'wellle/tmux-complete.vim'
 
+" viusal-multi
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 " edit enhancement
 Plug 'petertriho/nvim-scrollbar'
 Plug 'kevinhwang91/nvim-hlslens'
@@ -570,40 +572,27 @@ let g:fzf_layout = { 'window': { 'width': 0.95, 'height': 0.95 } }
 
 " ==================== coc.nvim ====================
 let g:coc_global_extensions = [
+    \ 'coc-marketplace',
 	\ 'coc-css',
 	\ 'coc-diagnostic',
-	\ 'coc-docker',
 	\ 'coc-eslint',
-	\ 'coc-explorer',
 	\ 'coc-flutter-tools',
 	\ 'coc-gitignore',
-	\ 'coc-html',
-	\ 'coc-import-cost',
-	\ 'coc-java',
 	\ 'coc-jest',
 	\ 'coc-json',
 	\ 'coc-lists',
-	\ 'coc-omnisharp',
-	\ 'coc-prettier',
-	\ 'coc-prisma',
-	\ 'coc-pyright',
 	\ 'coc-snippets',
-	\ 'coc-sourcekit',
-	\ 'coc-stylelint',
 	\ 'coc-syntax',
-	\ 'https://github.com/theniceboy/coc-tailwindcss',
 	\ 'coc-tasks',
 	\ 'coc-translator',
-	\ 'coc-tsserver',
-	\ 'coc-vetur',
 	\ 'coc-vimlsp',
-	\ 'coc-yaml',
 	\ 'coc-yank']
+" tab and shift tab to get 
 inoremap <silent><expr> <TAB>
 	\ pumvisible() ? "\<C-n>" :
 	\ <SID>check_back_space() ? "\<TAB>" :
 	\ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" :  "\<S-Tab>"
 inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
 function! s:check_back_space() abort
 	let col = col('.') - 1
@@ -630,12 +619,12 @@ nmap <silent> <LEADER>- <Plug>(coc-diagnostic-prev)
 nmap <silent> <LEADER>= <Plug>(coc-diagnostic-next)
 nnoremap <c-c> :CocCommand<CR>
 " Text Objects
-xmap kf <Plug>(coc-funcobj-i)
-xmap af <Plug>(coc-funcobj-a)
-omap kf <Plug>(coc-funcobj-i)
-omap af <Plug>(coc-funcobj-a)
-xmap kc <Plug>(coc-classobj-i)
-omap kc <Plug>(coc-classobj-i)
+"xmap kf <Plug>(coc-funcobj-i)
+"xmap af <Plug>(coc-funcobj-a)
+"omap kf <Plug>(coc-funcobj-i)
+"omap af <Plug>(coc-funcobj-a)
+"xmap kc <Plug>(coc-classobj-i)
+"omap kc <Plug>(coc-classobj-i)
 xmap ac <Plug>(coc-classobj-a)
 omap ac <Plug>(coc-classobj-a)
 " Useful commands
@@ -661,6 +650,7 @@ nmap <leader>aw  <Plug>(coc-codeaction-selected)w
 " nnoremap <leader>tu :CocCommand todolist.download<CR>:CocCommand todolist.upload<CR>
 " coc-tasks
 noremap <silent> <leader>ts :CocList tasks<CR>
+
 " coc-snippets
 imap <C-l> <Plug>(coc-snippets-expand)
 vmap <C-e> <Plug>(coc-snippets-select)
@@ -750,9 +740,10 @@ endif
 "let g:VM_default_mappings = 0
 let g:VM_leader                     = {'default': ',', 'visual': ',', 'buffer': ','}
 let g:VM_maps                       = {}
-let g:VM_custom_motions             = {'j': 'h', 'i': 'k', 'k': 'j', 'J': '0', 'L': '$'}
+let g:VM_custom_motions             = {'j': 'h', 'i': 'k', 'k': 'j'}
 let g:VM_maps['i']                  = 'h'
 let g:VM_maps['I']                  = 'H'
+"ctrl+k to be multi visual mode and select words
 let g:VM_maps['Find Under']         = '<C-k>'
 let g:VM_maps['Find Subword Under'] = '<C-k>'
 let g:VM_maps['Find Next']          = ''
@@ -761,3 +752,10 @@ let g:VM_maps['Remove Region']      = 'q'
 let g:VM_maps['Skip Region']        = '<c-n>'
 let g:VM_maps["Undo"]               = 'u'
 let g:VM_maps["Redo"]               = '<C-r>'
+
+" ===================== vim-hexokinase =======================
+
+let g:Hexokinase_highlighters = ['backgroundfull']
+
+
+
