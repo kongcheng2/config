@@ -634,6 +634,7 @@ nmap <silent> gD :tab sp<CR><Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 " nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
 nmap <leader>rn <Plug>(coc-rename)
 nmap tt :CocCommand explorer<CR>
 " coc-translator
@@ -654,7 +655,6 @@ noremap <silent> <leader>ts :CocList tasks<CR>
 " coc-snippets
 imap <C-l> <Plug>(coc-snippets-expand)
 vmap <C-e> <Plug>(coc-snippets-select)
-let g:coc_snippet_next = '<c-e>'
 let g:coc_snippet_prev = '<c-n>'
 imap <C-e> <Plug>(coc-snippets-expand-jump)
 autocmd BufRead,BufNewFile tsconfig.json set filetype=jsonc
@@ -744,8 +744,8 @@ let g:VM_custom_motions             = {'j': 'h', 'i': 'k', 'k': 'j'}
 let g:VM_maps['i']                  = 'h'
 let g:VM_maps['I']                  = 'H'
 "ctrl+k to be multi visual mode and select words
-let g:VM_maps['Find Under']         = '<C-k>'
-let g:VM_maps['Find Subword Under'] = '<C-k>'
+let g:VM_maps['Find Under']         = '<C-m>'
+let g:VM_maps['Find Subword Under'] = '<C-m>'
 let g:VM_maps['Find Next']          = ''
 let g:VM_maps['Find Prev']          = ''
 let g:VM_maps['Remove Region']      = 'q'
@@ -757,5 +757,18 @@ let g:VM_maps["Redo"]               = '<C-r>'
 
 let g:Hexokinase_highlighters = ['backgroundfull']
 
+
+" ==================== nvim-hlslens ====================
+lua<<EOF
+require'hlslens'.setup{}
+EOF
+noremap <silent> = <Cmd>execute('normal! ' . v:count1 . 'n')<CR>
+            \<Cmd>lua require('hlslens').start()<CR>
+noremap <silent> - <Cmd>execute('normal! ' . v:count1 . 'N')<CR>
+            \<Cmd>lua require('hlslens').start()<CR>
+noremap * *<Cmd>lua require('hlslens').start()<CR>
+noremap # #<Cmd>lua require('hlslens').start()<CR>
+noremap g* g*<Cmd>lua require('hlslens').start()<CR>
+noremap g# g#<Cmd>lua require('hlslens').start()<CR>
 
 
