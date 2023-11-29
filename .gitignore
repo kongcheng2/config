@@ -3,6 +3,7 @@
 !fish/
 !alacritty
 !i3
-!nvim
+!nvim/init.vim
+!nvim/md-snippets.vim
 !ranger
 !polybar
