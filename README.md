@@ -7,7 +7,42 @@ If your `add-apt-repository` command cann't work,you can try to cut down ipv6 wh
 ## Linux useful tips
 
 1. if you use clash to proxy http,firfox can work successfully,but google chrome can't, you can install extension called SwitchyOmega
-
+2. if you use `sudo apt upgrade` but error report that "无法解析xxx",try to modify the DNS
+```sh
+   sudo vim /etc/systemd/resolved.conf
+```
+Then ,use the following contents
+```sh
+#  This file is part of systemd.
+# 
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+#
+# Entries in this file show the compile time defaults.
+# You can change settings by editing this file.
+# Defaults can be restored by simply deleting this file.
+#
+# See resolved.conf(5) for details
+[Resolve]
+DNS= 114.114.114.114
+DNS= 8.8.8.8
+#FallbackDNS=
+#Domains=
+#LLMNR=no
+#MulticastDNS=no
+#DNSSEC=no
+#DNSOverTLS=no
+#Cache=no-negative
+#DNSStubListener=yes
+#ReadEtcHosts=yes
+```
+In the end,restart the service:
+```sh
+systemctl restart systemd-resolved 
+systemctl enable systemd-resolved
+```
 ## vim Plug Question
 First of all , update your neovim to insure that your neovim >= 0.9.1 (in Ubuntu ,use `sudo add-apt-repository ppa:neovim-ppa/stable`)
 
